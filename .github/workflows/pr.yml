@@ -6,7 +6,7 @@ on:
 jobs:
   job1:
     runs-on: ubuntu-latest
-    name: test build example and deploy to minikube 
+    name: build example and deploy to minikube 
     steps:
     - uses: actions/checkout@v2
     - name: Start minikube
